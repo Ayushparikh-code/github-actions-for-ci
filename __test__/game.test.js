@@ -1,22 +1,5 @@
 const Game = require('../src/game').default
 const fs = require('fs')
-● Game › Game › Initializes with two players
-
-    expect(received).toBe(expected) // Object.is equality
-
-    Expected: "Nate"
-    Received: "Bananas"
-
-      12 |     it('Initializes with two players', async () => {
-      13 |       expect(game.p1).toBe('Salem')
-    > 14 |       expect(game.p2).toBe('Nate')
-         |                       ^
-      15 |     })
-      16 | 
-      17 |     it('Initializes with an empty board', async () => {
-
-      at Object.toBe (__test__/game.test.js:14:23)
-
 describe('App', () => {
   it('Contains the compiled JavaScript', async (done) => {
     fs.readFile('./public/main.js', 'utf8', (err, data) => {
